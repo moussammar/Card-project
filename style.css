@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#first-page{
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-between;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+    height: 100%;
+}
+button{
+    background-color: gray;
+    border: 1.5px solid black;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#second-page{
+    background-color: greenyellow;
+    font-style: italic;
+    font-size:24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-between;
+    text-align: center;
+    position:absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
